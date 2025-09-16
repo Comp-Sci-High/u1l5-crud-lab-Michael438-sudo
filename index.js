@@ -21,12 +21,18 @@ console.log(playlist);
 // ----------------------------------
 // OBJECTS SECTION
 // Task 5: Create an object called 'song' with 'title', 'artist', and 'duration' properties
-
+let song = {
+  title: "My Song",
+  artist: "Cool Artist",
+  duration: 210 // duration in seconds, for example
+};
 
 // Task 6: Add a property 'listenedTo' to the 'song' object and set it to false
+song.listenedTo = false;
 
 
 // Task 7: Delete the 'artist' property
+delete song.artist;
 
 
 // Commit your changes with an appropriate message.
