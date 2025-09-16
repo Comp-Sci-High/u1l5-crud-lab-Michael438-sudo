@@ -5,13 +5,13 @@ let playlist = [];
 // Task 2: Push 3 songs to the playlist array
 playlist.push("lofi");
 playlist.push("rap");
-playlist.push("Old school")
+playlist.push("Old school");
 
 // Task 3: Update the value of the last element to be "Test"
-playlist[playlist.length - 1] = 'Test';
+playlist[playlist.length - 2] = 'Test';
 
 // Task 4: Delete the "Test" element 
-playlist.pop(test);
+playlist.pop();
 
 // Console log the array
 console.log(playlist);
@@ -47,7 +47,7 @@ let album = {
 };
 
 // Task 9: Add your song object (task 5) to the empty songs array in the album object
-album.songs.push(song);
+album.songs.push();
 
 
 // Console log the length of the album's songs array to confirm it worked
