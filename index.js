@@ -40,14 +40,24 @@ delete song.artist;
 // NESTED ARRAYS & OBJECTS SECTION
 // Task 8: Create an object called 'album' with properties song's album's 'name', 'year', and 'songs' (leave 'songs' as empty array for now)
 
+let album = {
+  name: "Vibes",
+  year: 2025,
+  songs: []
+};
 
 // Task 9: Add your song object (task 5) to the empty songs array in the album object
+album.songs.push(song);
 
 
 // Console log the length of the album's songs array to confirm it worked
+console.log(album.songs.length); // Should print 1
 
 // Task 10: Update the title of the song to be all lowercase. 
+album.songs[0].title = album.songs[0].title.toLowerCase();
+
 // Console log the album object to check your change
+console.log(album);
 
 
 // Commit your changes with an appropriate message.
